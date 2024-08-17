@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- links pages -->
     <link rel="stylesheet" href="./css/active.css">
-    <link rel="stylesheet" href="./js/showMore.js">
+    <link rel="stylesheet" href="./js/active.js">
 
     <!--============ webSites Links ================== -->
     <!-- [1] boxIcon -->
@@ -23,8 +23,8 @@
 
     <title>active</title>
 </head>
-<body>
-    <!-- input search -->
+<body> 
+<!-- input search -->
 <div class="search">
 	<input type="search">
     <i class="fa-solid fa-search"></i>
@@ -42,7 +42,6 @@
 		<i class='bx bxl-whatsapp' ></i>
 	</div>
 </div>
-<!--start heart -->
 <!--start heart -->
 <div class="hearting">
     <div class="head_heart">
@@ -67,7 +66,7 @@
         <h2 style="font-family:cursive; font-size:35px; color:rgb(6, 168, 193);">Active</h2>
         <div class="link">
             <ul>
-                <li class="active"><a href="./index.html" >Home</a></li>
+                <li class="active"><a href="" >Home</a></li>
                 <li><a href="#">All Products</a></li>
                 <li><a href="./e_about.html">About </a></li>
                 <li><a href="./e_contact.html">Contact</a></li>
@@ -109,36 +108,186 @@
     </div>
     <div class="bottom_cart">
         <div class="total">
-            <p>Cart Subtotal</p>
+            <p>total</p>
             <p class="price_cart_total">$0</p>
         </div>
 
         <div class="button_cart">
-            <a href="#" class="btn_cart">Buy</a>
+            <a href="./payment.html" class="btn_cart" style="color:#000;">Buy</a>
         </div>
     </div>
 </div>
-<!-- showContent -->
-<div class="show_page">
+
+<!-- start slider -->
+<section class="slider">
     <div class="container">
-        <div class="items_content">
-            <!-- <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt="">
-            <img src="./images/banner/New folder (2)/bb1.jpg" alt=""> -->
+        <div class="side_bar">
+            <h2 class="slide_head" style="color: rgb(6, 168, 193);"><i class="fa-solid fa-bars"></i>  Shop by department</h2>
+            <a href="#">ALL CATEGORIES</a>
+            <a href="#">NIKE PRODUCTS</a>
+            <a href="#">PUMA PRODUCTS</a>
+            <a href="#">ADIDAS PRODUCTSr</a>
+            <a href="#">TERTANS LANDS</a>
+            <a href="#">STRONG STARS</a>
+            <a href="#">MEN PRODUCTS</a>
+            <a href="#">GIRLS PRODUCTS</a>
+            <a href="#">NEW & OLD PRODUCTS</a>
+        </div>
+            <!-- Swiper -->
+        <div class="slide-swp mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/landpage/8fae1d22f1a2352e57eb9b61ad690b9a.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/landpage/d2f7adfa9ea5cdd5b21860d893a2c0fb.jpg" alt=""></a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#"><img src="./images/landpage/d4105dd815711c31e6ce7d8e08335197.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<!-- fashion -->
+<div class="our-team">
+    <div class="team-container">
+        <div class="we"><img src="./images/team/13a6b43408f9bb6bbe6b7e83dcade670.jpg" alt=""></div>
+        <div class="we"><img src="./images/team/e6604a0a5318f31f681d35ef8d808dd7.jpg" alt=""></div>
+        <div class="we"><img src="./images/team/a092091b39bcd75888f3f83de0036c8e.jpg" alt=""></div>
+        <div class="we"><img src="./images/team/ccef559143406ffe07944e397b7243c6.jpg" alt=""></div>
+        <div class="we"><img src="./images/team/e7dd33db37284ce9d03d2f66cd1f1712.jpg" alt=""></div>
+        <div class="we"><img src="./images/team/e7dd33db37284ce9d03d2f66cd1f1712.jpg" alt=""></div>
+    </div>
+</div> 
+
+<section class="slide slide_product">
+    <div class="container">
+        <div class="top_slide">
+            <h2 class="slide_head">football<span> products</span></h2>
+        </div>
+        <div class="slide_with_img">
+            <div class="categ_img" style="width: 300px;">
+                <a href="#"><img src="./images/view/v7.jpg" alt="" style="width: 100%;"></a>
+            </div>
+            <div class="product_swip mySwiper">
+                <div class="products other_product_swiper swiper-wrapper" id="other_product_swiper">
+
+                </div>
+                <div class="swiper-button-next btn_Swip"></div>
+                <div class="swiper-button-prev btn_Swip"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- start view -->
+<div class="pig-view">
+    <div class="container">
+        <div class="top_slide">
+            <h2 class="slide_head">show best <span>product</span></h2>
+        </div>
+        <div class="pig-view-content">
+            <div class="left-view">
+                <img src="./images/view/v9.jpg" alt="">
+                <div class="text-view">
+                    <h3>Men Vew</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    <a href="./e_show_more.html"><button>Show More </button></a>
+                </div>
+            </div>
+            <div class="left-view">
+                <img src="./images/view/v8.jpg" alt="">
+                <div class="text-view text-view-left">
+                    <h3>Men View</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                <a href="./e_show_more.html"><button>Show More </button></a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+<!-- end view -->
+
+
+
+
+
+<!-- start slide -->
+<section class="slide slide_sale" id="slide">
+    <div class="container">
+        <div class="sale_sec mySwiper">
+            <div class="top_slide">
+                <h2 class="slide_head">your best <span>product</span></h2>
+            </div>
+            <div class="swiper_items_sale2  products swiper-wrapper">
+            </div>
+            <div class="swiper-button-next btn_Swip"></div>
+            <div class="swiper-button-prev btn_Swip"></div>
+        </div>
+    </div>
+</section>
+<!-- start slide -->
+<section class="slide slide_sale" id="slide">
+    <div class="container">
+        <div class="sale_sec mySwiper">
+
+            <div class="swiper_items_sale1  products swiper-wrapper">
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<!-- start show more -->
+<div class="show">
+    <div class="container">
+        <div class="show-content">
+        <div class="show-text">
+            <h2>choose your style</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Unde et obcaecati qui dignissimos, at dolores!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Unde et obcaecati qui dignissimos, at dolores!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+                . Unde et obcaecati qui dignissimos, at dolores!
+            </p>
+            <a href="./e_show_more.html"><button>Show More </button></a>
+        </div>
+        <div class="show-content">
+            <img src="./images/show/3f9ec2a54c1bbf2c85dd4dbd6859ba0c.jpg" alt="">
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<!-- start slide_product -->
+<section class="slide slide_product">
+    <div class="container">
+        <div class="top_slide">
+            <h2 class="slide_head">smart foots  <span>products</span></h2>
+        </div>
+        <div class="slide_with_img">
+            <div class="product_swip mySwiper">
+                <div class="products other_product_swiper swiper-wrapper" id="other_product_swiper2">
+                </div>
+                <div class="swiper-button-next btn_Swip"></div>
+                <div class="swiper-button-prev btn_Swip"></div>
+            </div>
+            <div class="categ_img" style="width:300px;">
+                <a href="#"><img src="./images/view/v2.jpg" alt="" style="width:100%; height:100%;"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
  <!-- start company banner -->
  <div class="company">
     <div class="container">
@@ -159,12 +308,13 @@
         <div class="item_content">
             <img src="./images/company/puma.png" alt="">
             <div class="item_text">
-                <h2>Poma</h2>
+                <h2>Puma</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, tenetur?</p>
             </div>
         </div>
     </div>
 </div>
+
 <!-- start news_letter -->
 <div class="news_letter">
     <div class="container">
@@ -231,18 +381,18 @@
         </div>
     </div>
  </footer>
+
+ <!-- start end_banner -->
  <div class="end_Banner">
     <p>copyRight &copy; <span>ahmed el_sliny</span>www.ahmedshehata406@gmail.com</p>
     <i class='bx bx-vertical-top' style="color: rgb(6, 168, 193); font-size: 35px;
      border-radius: 50%; padding: 5px; background-color: #fff;"></i>
 </div>
-
 <!-- bind js files -->
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="js/swiper.js"></script>
-  <script src="js/active.js"></script>
-  <script src="js/items.json"></script>
-  <script src="js/showMore.js"></script> 
+    <script src="js/swiper.js"></script>
+    <script src="js/active.js"></script>
+    <script src="js/items.js"></script> 
 </body>
-</html>
+</html>  

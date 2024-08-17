@@ -565,7 +565,7 @@ margin-top: 0;
     color: var(--main-color);
     font-weight: 700;
     font-size: 18px;
-    box-shadow: 0 0 10px 10px #FFF;
+    box-shadow: -8px -4px 12px -11px #000;
 }
 .show-text button:hover{
     background-color: var(--main-color);
@@ -1200,7 +1200,7 @@ input:hover{
 
 /* start view */
 .pig-view{
-    margin-top: 100px;
+    margin: 100px 0 ;
     display: flex;
     justify-content: center;
     flex-direction: column;
