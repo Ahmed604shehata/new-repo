@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- links pages -->
+        <link rel="stylesheet" href="./css/active.css">
+    
+        <!--============ webSites Links ================== -->
+        <!-- [1] boxIcon -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+        <!-- [2] fontAwesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+        <!-- [3] cdnjs fonts -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    
+        <!-- Link Swiper's CSS -->
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+        <title>E_co</title>
+    <title>Document</title>
+</head>
+<body>
+    <!-- input search -->
+<div class="search">
+	<input type="search">
+    <i class="fa-solid fa-search"></i>
+</div>
+<!-- login input -->
+<div class="logIn">
+        <h2>Login</h2>
+        <span>Email</span>
+        <input type="text" placeholder="E-mail">
+        <input type="password" placeholder="password">
+        <button>Submit</button>
+	<div class="logIcon">
+		<i class='bx bxl-facebook'></i>
+		<i class='bx bxl-google' ></i>
+		<i class='bx bxl-whatsapp' ></i>
+	</div>
+</div>
+<!--start heart -->
+<div class="hearting">
+    <div class="head_heart">
+        <i class='bx bx-x' style="color: #fff; font-size: 25px;" ></i>
+        <div class="list" >
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul class="removeList">
+                <li onclick="removeAll()">remove all</li>
+            </ul>
+        </div>
+    </div>
+        <h1>Loved</h1>
+	<div class="heart-content">
+	</div>
+</div>
+<!-- start header -->
+<header>
+    <div class="container top-nav">
+        <h2 style="font-family:cursive; font-size:35px; color:rgb(6, 168, 193);"><a href="./active.html"><i class='bx bx-arrow-back'></i></a></h2>
+    </div>
+    <nav>
+</header>
+<!-- start cart -->
+<div class="cart active">
+    <div class="top_cart">
+        <h3>products<span class="count_item_cart">(0)</span></h3>
+        <span onclick="close_cart()" class="close_cart"><i class="fa-regular fa-circle-xmark"></i></span>
+    </div>
+    <div class="item_in_cart">
+    </div>
+    <div class="bottom_cart">
+        <div class="total">
+            <p>total</p>
+            <p class="price_cart_total">$0</p>
+        </div>
+
+        <div class="button_cart">
+            <a href="#" class="btn_cart" style="color:#000;">Buy</a>
+        </div>
+    </div>
+</div>
+
+<!-- start payment -->
+<div class="payment">
+    <div class="container">
+        <div class="content_payment">
+
+            <div class="card_chose">
+                <h4>payment ways</h4>
+                <div class="credit_cards">
+                    <img src="./images/payment/payment-1.png" alt="">
+                    <img src="./images/payment/payment-2.png" alt="">
+                    <img src="./images/payment/payment-3.png" alt="">
+                </div>
+            </div>
+    
+            <div class="payment_data">
+
+                <div class="name_data">
+                    <div class="firstName">
+                        <label for="firstName">First Name</label>
+                        <input type="text" placeholder="First Name">
+                    </div>
+                    <div class="LastName">
+                        <label for="LastName">Last Name</label>
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                </div>
+
+
+                <label for="phone">phone</label>
+                <input type="" placeholder="Phone Number">
+
+                <div class="credit_card">
+                    <label for="Card Number">Card Number</label>
+                    <input type="number" placeholder="1111-1111-1111-1112">
+                </div>
+
+                <a href="#"><button>Pay Now</button></a>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+<!-- bind js files -->
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/swiper.js"></script>
+</body>
+</html>
